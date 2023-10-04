@@ -1,0 +1,46 @@
+
+/* Corpo */
+.novidades {
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 850px;
+    /*border: 1px solid black;*/
+    overflow: hidden;
+    position: relative;
+}
+
+/* Estilo para as imagens */
+.imagem {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Estilo para as setas */
+.seta {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.seta-esquerda {
+    left: 0px;
+}
+
+.seta-direita {
+    right: 0px;
+}
